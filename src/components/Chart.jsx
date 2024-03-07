@@ -20,7 +20,7 @@ function Chart() {
             ],
             "chartOnly": false,
             "width": "100%",
-            "height": "600",
+            "height":"600",
             "locale": "en",
             "colorTheme": "light",
             "autosize": true,
