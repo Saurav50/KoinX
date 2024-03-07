@@ -48,56 +48,43 @@ const AboutBitcoin = () => {
           eget. Ullamcorper dui
         </p>
       </article>
-      <article className="border-b-2 border-gray-200 pb-5">
+      <div className="border-b-2 border-gray-200 pb-5">
         <h1 className="text-xl font-semibold my-4">Already Holding Bitcoin?</h1>
         <div className="flex flex-col gap-6  md:flex-row md:gap-20">
-          <figure className="flex gap-5 md:w-1/2 bg-gradient-to-br from-grenGradient  to-blue-800  p-6  rounded-md">
-            <img
-              src={TradingMobile2}
-              alt="Calculate your Profits"
-              className="rounded-md h-24"
-            />
-            <figcaption>
+          <div className="flex gap-5 md:w-1/2 bg-gradient-to-br from-grenGradient  to-blue-800  p-6  rounded-md">
+            <div className="h-30">
+              <img src={TradingMobile2} alt="" className=" rounded-md h-24" />
+            </div>
+            <div>
               <p className="text-white font-bold text-lg md:text-2xl mb-3">
                 Calculate your Profits
               </p>
               <a
                 href="#profits"
-                className="bg-white text-xs px-4 py-2 rounded-md"
+                className=" bg-white text-xs px-4 py-2 rounded-md"
               >
                 Check Now -&gt;
               </a>
-            </figcaption>
-          </figure>
-          <figure className="flex gap-5 md:w-1/2 bg-gradient-to-br from-orange-300 to-red-600  p-6  rounded-md">
-            <img
-              src={TradingMobile}
-              alt="Calculate your tax liability"
-              className="rounded-md h-24"
-            />
-            <figcaption>
+            </div>
+          </div>
+          <div className="flex gap-5 md:w-1/2 bg-gradient-to-br from-orange-300 to-red-600  p-6  rounded-md">
+            <div className="h-30">
+              <img src={TradingMobile} alt="" className=" rounded-md h-24" />
+            </div>
+            <div>
               <p className="text-white font-bold  text-lg sm:text-2xl mb-3">
                 Calculate your tax liability
               </p>
               <a
                 href="#profits"
-                className="bg-white text-xs px-4 py-2 rounded-md"
+                className=" bg-white text-xs px-4 py-2 rounded-md"
               >
                 Check Now -&gt;
               </a>
-            </figcaption>
-          </figure>
+            </div>
+          </div>
         </div>
-      </article>
-      <article>
-        <p className="py-4  text-md text-paraGray">
-          Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam
-          massa vel convallis duis ac. Mi adipiscing semper scelerisque
-          porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia
-          congue ipsum fames amet dui. Purus ultrices tincidunt volutpat in
-          eget. Ullamcorper dui
-        </p>
-      </article>
+      </div>
     </section>
   );
 };
