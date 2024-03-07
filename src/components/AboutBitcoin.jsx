@@ -46,10 +46,13 @@ const AboutBitcoin = () => {
               <img src={TradingMobile2} alt="" className=" rounded-md h-24" />
             </div>
             <div>
-              <p className="text-white font-bold text-2xl mb-3">
+              <p className="text-white font-bold text-lg md:text-2xl mb-3">
                 Calculate your Profits
               </p>
-              <a href="#profits" className=" bg-white px-4 py-2 rounded-md">
+              <a
+                href="#profits"
+                className=" bg-white text-xs px-4 py-2 rounded-md"
+              >
                 Check Now -&gt;
               </a>
             </div>
@@ -59,10 +62,13 @@ const AboutBitcoin = () => {
               <img src={TradingMobile} alt="" className=" rounded-md h-24" />
             </div>
             <div>
-              <p className="text-white font-bold text-2xl mb-3">
+              <p className="text-white font-bold  text-lg sm:text-2xl mb-3">
                 Calculate your tax liability
               </p>
-              <a href="#profits" className=" bg-white px-4 py-2 rounded-md">
+              <a
+                href="#profits"
+                className=" bg-white text-xs px-4 py-2 rounded-md"
+              >
                 Check Now -&gt;
               </a>
             </div>
