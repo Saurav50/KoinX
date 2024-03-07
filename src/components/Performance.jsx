@@ -7,14 +7,6 @@ const TradingSlider = () => {
 
   return (
     <div className="relative w-3/4 h-2 bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 rounded-full">
-      {/* <div
-        className="absolute left-0 top-0 bottom-0 bg-black w-2 h-full rounded-full"
-        style={{
-          left: `${((value - minValue) / (maxValue - minValue)) * 100}%`,
-        }}
-      >
-        <div className="w-4 h-4 bg-black rounded-full absolute -top-3 -ml-2 transform rotate-45"></div>
-      </div> */}
       <div
         className="absolute top-3 flex flex-col justify-center items-center  transform -translate-x-1/2 text-xs text-gray-500"
         style={{

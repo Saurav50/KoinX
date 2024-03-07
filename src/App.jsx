@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Chart from "./components/Chart";
 import GetStartedCard from "./components/GetStartedCard";

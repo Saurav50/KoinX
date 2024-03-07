@@ -11,6 +11,7 @@ function CircularRingGraph({ radius, strokeWidth, percentage }) {
       viewBox={`0 0 ${2 * outerRadius} ${2 * outerRadius}`}
       width={2 * outerRadius}
       height={2 * outerRadius}
+      aria-label={`Circular Ring Graph with radius ${radius}, strokeWidth ${strokeWidth}, and percentage ${percentage}`}
     >
       <circle
         cx={outerRadius}
@@ -19,6 +20,7 @@ function CircularRingGraph({ radius, strokeWidth, percentage }) {
         fill="transparent"
         stroke="orange"
         strokeWidth={strokeWidth}
+        aria-label="Inner Circle"
       />
       <circle
         cx={outerRadius}
@@ -29,6 +31,7 @@ function CircularRingGraph({ radius, strokeWidth, percentage }) {
         strokeWidth={strokeWidth}
         strokeDasharray={strokeDasharray}
         transform={`rotate(-90 ${outerRadius} ${outerRadius})`}
+        aria-label="Outer Circle"
       />
     </svg>
   );
@@ -43,14 +46,24 @@ const Tokenomics = () => {
         <CircularRingGraph radius={70} strokeWidth={30} percentage={80} />
         <div className="flex flex-col justify-center gap-2">
           <div className="flex items-center gap-1">
-            <svg width="20" height="20" viewBox="0 0 100 100">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 100 100"
+              aria-label="Crowdsale investors"
+            >
               <circle cx="50" cy="50" r="40" fill="#2469ea" />
               <circle cx="50" cy="50" r="10" fill="#2469ea" />
             </svg>
             <p>Crowdsale investors: 80%</p>
           </div>
           <div className="flex items-center gap-1">
-            <svg width="20" height="20" viewBox="0 0 100 100">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 100 100"
+              aria-label="Foundation"
+            >
               <circle cx="50" cy="50" r="40" fill="orange" />
               <circle cx="50" cy="50" r="10" fill="orange" />
             </svg>

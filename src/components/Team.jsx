@@ -1,5 +1,6 @@
-import JohnSmith from "../assets/JohnSmith.webp";
-import EllinaWilliams from "../assets/EllinaWilliams.webp";
+import JohnSmithImg from "../assets/JohnSmith.webp";
+import EllinaWilliamsImg from "../assets/EllinaWilliams.webp";
+
 const Team = () => {
   return (
     <div className="flex flex-col py-8 px-2 gap-5 mt-14 bg-white md:p-8 rounded-md">
@@ -12,7 +13,11 @@ const Team = () => {
       </p>
       <div className="flex flex-col md:flex-row gap-10   bg-sky-100 rounded-md p-5 items-center">
         <div className="flex flex-col items-center">
-          <img src={JohnSmith} alt="" className=" w-24 h-24 rounded-lg" />
+          <img
+            src={JohnSmithImg}
+            alt="John Smith"
+            className="w-24 h-24 rounded-lg"
+          />
           <h3 className="font-semibold text-sm">John Smith</h3>{" "}
           <p className="text-xs text-gray-500">Designation here</p>
         </div>
@@ -27,8 +32,12 @@ const Team = () => {
       </div>
       <div className="flex flex-col md:flex-row  gap-10   bg-sky-100 rounded-md p-5 items-center">
         <div className="flex flex-col items-center ">
-          <img src={EllinaWilliams} alt="" className=" w-24 rounded-lg" />
-          <h3 className="font-semibold text-sm">John Smith</h3>
+          <img
+            src={EllinaWilliamsImg}
+            alt="Ellina Williams"
+            className="w-24 rounded-lg"
+          />
+          <h3 className="font-semibold text-sm">Ellina Williams</h3>
           <p className="text-xs text-gray-500">Designation here</p>
         </div>
         <p className="text-sm max-w-lg lg:max-w-2xl">
@@ -42,7 +51,11 @@ const Team = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-10   bg-sky-100 rounded-md p-5 items-center">
         <div className="flex flex-col items-center ">
-          <img src={JohnSmith} alt="" className=" w-24 h-24 rounded-lg" />
+          <img
+            src={JohnSmithImg}
+            alt="John Smith"
+            className="w-24 h-24 rounded-lg"
+          />
           <h3 className="font-semibold text-sm">John Smith</h3>{" "}
           <p className="text-xs text-gray-500">Designation here</p>
         </div>

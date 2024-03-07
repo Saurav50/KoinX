@@ -60,14 +60,14 @@ const YouMayAlsoLike = () => {
           className="flex items-center justify-between overflow-x-auto scrollbar-hide"
           style={{ scrollBehavior: "smooth" }}
         >
-          <button onClick={handlePrev}>
+          <button onClick={handlePrev} aria-label="Previous" tabIndex="0">
             <svg
-              class="w-6 h-6 text-gray-700"
+              className="w-6 h-6 text-gray-700"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
               <path
-                class="fill-current text-black"
+                className="fill-current text-black"
                 d="M14 17a1 1 0 0 1-.707-.293l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 1 1 1.414 1.414L11.414 12l3.293 3.293A1 1 0 0 1 14 17z"
               />
             </svg>
@@ -120,15 +120,15 @@ const YouMayAlsoLike = () => {
               />
             </div>
           ))}
-          <button onClick={handleNext}>
+          <button onClick={handleNext} aria-label="Next" tabIndex="0">
             <div className="w-4 h-3 -ml-2 text-gray-700">
               <svg
-                class="w-6 h-6 text-gray-700"
+                className="w-6 h-6 text-gray-700"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
                 <path
-                  class="fill-current text-black"
+                  className="fill-current text-black"
                   d="M14.707 12.707l-4 4a1 1 0 0 1-1.414-1.414L12.586 12 9.293 8.707a1 1 0 1 1 1.414-1.414l4 4a1 1 0 0 1 0 1.414z"
                 />
               </svg>
