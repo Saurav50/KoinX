@@ -1,11 +1,10 @@
 // Component1.js
 import React from "react";
-import Performance from "../assets/Performance.png";
+import Performance from "./Performance";
 
 const Overview = () => (
-  <div className="p-4 bg-white w-full">
-    {/* <h1 className="text-2xl font-medium">Performance</h1> */}
-    <img src={Performance} className="w-full" alt="" />
+  <div className="p-8 mt-2 bg-white w-full rounded-md">
+    <Performance />
   </div>
 );
 
