@@ -207,23 +207,23 @@ const Sentiment = () => {
         </svg>
       </h2>
       <div className="flex items-center gap-10">
-        <div className="relative inline-flex text-2xl font-semibold text-green-700 items-center justify-center bg-green-200 rounded-full min-h-28 min-w-28 aspect-w-1 aspect-h-1">
+        <div className="relative inline-flex  md:text-2xl font-semibold text-green-700 items-center justify-center bg-green-200 rounded-full min-h-14 min-w-14 md:min-h-28 md:min-w-28 aspect-w-1 aspect-h-1">
           76%
         </div>
         <div className="flex flex-col justify-evenly">
           <div className="flex gap-3 items-center">
             <span>Buy</span>
-            <div className="flex-1  h-2.5 rounded-md bg-green-500 w-20 md:w-44 gray-400 mx-2"></div>
+            <div className="flex-1  h-2.5 rounded-md bg-green-500 w-12 sm:w-20 md:w-44 gray-400 mx-2"></div>
             <span>76%</span>
           </div>
           <div className="flex gap-2 items-center">
             <span>Hold</span>
-            <div className="flex-1 h-2.5 rounded-md max-w-6 md:max-w-10 bg-gray-500  gray-400 mx-2"></div>
+            <div className="flex-1 h-2.5 rounded-md max-w-4 sm:max-w-6 md:max-w-10 bg-gray-500  gray-400 mx-2"></div>
             <span>8%</span>
           </div>
           <div className="flex gap-3 items-center">
             <span>Sell</span>
-            <div className="flex-1 h-2.5 rounded-md max-w-14 md:max-w-20 bg-red-500 gray-400 mx-2"></div>
+            <div className="flex-1 h-2.5 rounded-md max-w-8 sm:max-w-14 md:max-w-20 bg-red-500 gray-400 mx-2"></div>
             <span>16%</span>
           </div>
         </div>
