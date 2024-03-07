@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="mx-14 my-4 text-xs">
+      <div className=" mx-10 md:mx-14 my-4 text-xs">
         <span className="text-textGray">Cryptocurrencies &gt;&gt;</span> Bitcoin
       </div>
       <div className="flex flex-col mx-4 md:flex-row md:mx-14 gap-5 font-sans">
